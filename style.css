@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+}
+
+.offers-div {
+  border: 4px solid red;
+  padding: 1em;
+  display: flex;
+  justify-content: flex-end;
+}
+.disscount-p {
+  border: 3px solid green;
+  width: 30%;
+  display: inline;
+}
+.navbar {
+  border: 4px solid red;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-links-1 {
+  border: 4px solid green;
+  display: inline;
+}
+.navbar-links-2 {
+  border: 4px solid green;
+  display: inline;
+}
+.main {
+  border: 4px solid red;
+  padding: 5em 1em;
+}
+.main-title {
+  font-size: 4rem;
+  width: 50%;
+  margin: 0.5em 0;
+}
+
+.favourites {
+  border: 4px solid red;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fav-productcontainer {
+  border: 4px solid green;
+  width: 100%;
+  margin: 2em 0;
+  display: flex;
+}
+
+.fav-productcontainer > * {
+  border: 4px solid yellow;
+}
+
+.product {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.innovative {
+  border: 4px solid red;
+  display: flex;
+}
+.innovative > * {
+  border: 4px solid green;
+}
+.innovative-img {
+  width: 50%;
+}
+.innovative-content {
+  width: 50%;
+  padding: 2em;
+}
+.bags {
+  border: 4px solid yellow;
+  display: flex;
+  flex-direction: row;
+}
+.bag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inspiration {
+  border: 4px solid red;
+  display: flex;
+}
+.inspiration > * {
+  border: 2px solid green;
+}
+.inspiration-content {
+  width: 50%;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.inspiration-image {
+  width: 50%;
+}
+
+.category {
+  border: 4px solid red;
+  padding: 2em;
+  display: flex;
+
+}
+
+.category > * {
+  border: 2px solid green;
+}
+
+.suitcases {
+  display: flex; 
+  flex-direction: column;
+}
+
+.bags {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+
+.accessories {
+  display: flex; 
+  flex-direction: column;
+}
+
+.sale {
+  border: 4px solid red;
+  padding: 2em;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+
+.changed-the-game {
+  border: 4px solid red;
+  padding: 2em;
+}
+
+.luggage-images {
+  border: 2px solid green;
+  display: flex;
+}
+
+.luggage-images > * {
+  border: 2px solid yellow; 
+  position: relative; 
+}
+
+.text1 {
+  border: black;
+  position: absolute; 
+  left: 5%; 
+  bottom: 5%; 
+}
+
+.text2 {
+  border: black;
+  position: absolute; 
+  left: 5%; 
+  bottom: 5%; 
+}
+
+.text3 {
+  border: black;
+  position: absolute; 
+  left: 5%; 
+  bottom: 5%; 
+}
+
+.quote {
+  border: 4px solid red; 
+  display: flex; 
+}
+
+.icon {
+  border: 2px solid green; 
+  display: flex; 
+  justify-content: center;
+  align-content: flex end;
+}
+
+.travels {
+  border: 4px solid red;
+  padding: 2em;
+  display: flex;
+}
+
+.travels > * {
+  border: 2px solid green;
+}
+
+.travel-image {
+  border: 4px solid red;
+}
+
+.shipping-returns {
+  border: 4px solid red; 
+  padding: 2em;
+  display: flex; 
+}
+
+.shipping-returns > * {
+  border: 2px solid green; 
+  padding: 3em;
+}
+
+.more-info {
+  border: 4px solid red;
+  padding: 2em;
+  display: flex;
+}
+
+.more-info > * {
+  border: 2px solid green;
+  display: flex; 
+  flex-direction: column;
+}
+
+.shop {
+  width: 17.5%;
+}
+
+.about {
+  width: 17.5%;
+}
+
+.get-help {
+  width: 17.5%;
+}
+
+.FAQS {
+  width: 17.5%;
+}
+
+.icons {
+  border: 2px solid yellow;
+  display: flex; 
+  justify-content: center;
+}
+
+.emails {
+  width: 30%;
+}
+
+.email-address {
+  border: 2px solid yellow;
+  display: flex; 
+  justify-content: center;
+}
+
+.bottom {
+  border: 4px solid red;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.bottom > * {
+  border: 2px solid green;
+}
