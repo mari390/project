@@ -180,7 +180,7 @@ img {
   color: white;
 }
 
-#45%sale {
+#selectsale {
   font-family: "Apple", serif; 
 }
 
@@ -356,3 +356,26 @@ img {
 .bottom > * {
   border: 2px solid green;
 }
+
+@media (max-width: 480px) {
+  .offers-div > a,
+  .navbar-links-1 {
+    display: none;
+  }
+
+  .disscount-p {
+    width: 50%;
+  }
+
+  .offers-div {
+    justify-content: center;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main {
+    text-align: center;
+    padding: 1.5em 0.5em;
+  }
+} 
